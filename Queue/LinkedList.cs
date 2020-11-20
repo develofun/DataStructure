@@ -13,6 +13,19 @@ namespace DataStructure
         }
     }
 
+    public class Node2
+    {
+        public string Data { get; set; }
+
+        public Node2 Left { get; set; }
+        public Node2 Right { get; set; }
+        
+        public Node2(string data)
+        {
+            Data = data;
+        }
+    }
+
     public class QueueUsingLinkedList
     {
         private Node head = null;
